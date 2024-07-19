@@ -1,0 +1,22 @@
+.star {
+    color:red;
+}
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: rgb(252, 182, 4)
+}
+
+.rating input:checked+label~label {
+    color: lightslategrey
+}
+
+thead {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
